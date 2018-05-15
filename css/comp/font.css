@@ -1,0 +1,9 @@
+@font-face {
+    src: url('../vendor/PT_Sans-Web-Regular.ttf');
+    font-family: 'PT_Sans-Web-Regular.ttf'
+}
+
+body {
+        font-family: 'PT_Sans-Web-Regular.ttf';
+        overflow: none;
+}

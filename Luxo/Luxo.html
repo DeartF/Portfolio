@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Luxo</title>  
+	<link rel="stylesheet" href="style/all.css" type="text/css">  
+	<link rel="shortcut icon" type="image/x-icon" href="img/LogoFooter.png">          
+</head>
+<body>
+<section class="modal" id="modal">
+	<div class="modal-backdrop"></div>
+	<form action="" class="modal-form">
+		<img src="img/close.svg" alt="" class="modal-close" onclick="hideModal()">
+		<div class="modal-head">
+			Sign Up Form
+		</div>
+		<div class="form-content">
+			<input type="text" class="modal-form__input" placeholder="Login">
+			<input type="password" class="modal-form__input" placeholder="Password">
+			<input type="email" class="modal-form__input" placeholder="Email">
+			<div class="dropdown">
+				<div class="dropdown-select" onclick="showDropdown()">
+					<span id="dropdown-text">Choose</span>
+					<img src="img/caret-down.svg" alt="" class="choose" >
+				</div>
+				<div class="dropdown-option" id="dropdown">
+					<li class="dropdown-option__item" onclick="setOption(event)">Python</li>
+					<li class="dropdown-option__item" onclick="setOption(event)">Ruby</li>
+					<li class="dropdown-option__item" onclick="setOption(event)">SQL</li>
+					<li class="dropdown-option__item" onclick="setOption(event)">PHP</li>
+					<li class="dropdown-option__item" onclick="setOption(event)">JQuery</li>
+				</div>	
+			</div>
+			<button class="btn btn-modal">Sign Up</button>
+		</div>
+
+	</form>
+</section>
+<section class="header">
+	<div class="header-inner">
+		<img src="img/menu.svg" alt="" class="menu">
+		<img src="img/logo.png" alt="Bondi" class="logo">
+		<div class="nav">
+			<div class="nav-list">
+				<li class="nav-list__item active" onclick="Scroll('home', 0)">Home</li>
+				<li class="nav-list__item" onclick="Scroll('Contact', 1)">Contact</li>
+				<li class="nav-list__item" onclick="Scroll('offer', 2)">Offer</li>
+				<button class="btn btn--log" onclick="showModal()">Login</button>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="home" id="home">
+	<div class="home-inner">
+	<span class="home-title">Luxo Have New Offers For You</span>
+	<span class="home-subtitle">Lorem Ipsum dolor sit amet en dol est</span>
+	<button class="btn btn--home">Learn More ></button>
+	</div>
+</section>
+<section class="contact" id="Contact">
+	<div class="contact-inner">
+		<div class="contact-item">
+			<img src="img/offer.png" alt="">
+			<span class="contact-item__title">Luxo Offer #1</span>
+			<img src="img/Icon.png" alt="">
+			<span class="contact-item__geo">London, UK</span>
+			<span class="contact-item__subtitle">Sed porttitor lectus nibh. 
+			Vivamus magna justo,lacinia 
+			eget consectetur sed.</span>
+			<span class="contact-item__price">$799/mo</span>
+			<button class="btn btn-contact">Show Me More</button>	
+		</div>
+
+		<div class="contact-item">
+			<img src="img/offer.png" alt="">
+			<span class="contact-item__title">Luxo Offer #2</span>
+			<img src="img/Icon.png" alt="">
+			<span class="contact-item__geo">London, UK</span>
+			<span class="contact-item__subtitle">Sed porttitor lectus nibh. 
+			Vivamus magna justo,lacinia 
+			eget consectetur sed.</span>	
+			<span class="contact-item__price">$899/mo</span>
+			<button class="btn btn-contact">Show Me More</button>
+		</div>
+
+		<div class="contact-item">
+			<img src="img/offer.png" alt="">
+			<span class="contact-item__title">Luxo Offer #3</span>
+			<img src="img/Icon.png" alt="">
+			<span class="contact-item__geo">London, UK</span>
+			<span class="contact-item__subtitle">Sed porttitor lectus nibh. 
+			Vivamus magna justo,lacinia 
+			eget consectetur sed.</span>	
+			<span class="contact-item__price">$999/mo</span>
+			<button class="btn btn-contact">Show Me More</button>	
+			</div>	
+	</div>
+</section>
+<section class="quote">
+	<div class="quote-inner">
+		<p class="quote-text">New <span class="quote-color">Life</span>, New <span class="quote-color">Beginning</span></p>
+		<button class="btn btn-quote">Watch Video <span class="arrow">></span></button>
+	</div>
+</section>   
+<section class="offer" id="offer">
+	<div class="offer-item">
+		<div class="offer-item__inner">
+			<span class="offer-item__title">Luxo Offer #1</span>
+			<img src="img/Icon.png" alt="">
+			<span class="offer-item__geo">London, UK</span>
+			<span class="offer-item__subtitle">Sed porttitor lectus nibh. <br>
+			Vivamus magna justo,lacinia eget consectetur sed, convallis at tellus. Curabitur aliquet quam id dui posuere blandit.Cras ultricies ligula sed magna...</span>
+			<span class="offer-item__price">$799/mo</span>
+		</div>	
+	</div>
+	<div class="offer-background">
+			
+	</div>
+</section>
+	<div class="offer2">
+		<div class="offer-background">
+
+		</div>
+	<div class="offer-item">
+			<div class="offer-item__inner">
+				<span class="offer-item__title">Luxo Offer #2</span>
+				<img src="img/Icon.png" alt="">
+				<span class="offer-item__geo">London, UK</span>
+				<span class="offer-item__subtitle">Sed porttitor lectus nibh. <br>
+				Vivamus magna justo,lacinia eget consectetur sed, convallis at tellus. Curabitur aliquet quam id dui posuere blandit.Cras ultricies ligula sed magna...</span>
+				<span class="offer-item__price">$799/mo</span>
+			</div>	
+	</div>
+	</div>
+<section class="footer">
+	<div class="footer-inner">
+		<div>
+			<img src="img/LogoFooter.png" alt="" class="LogoFooter">
+			<span class="footer-title">All Rights Reserved.</span>
+		</div>
+		<div class="footer-cont">
+			<img src="img/Fb.png" alt="">
+			<img src="img/Tw.png" alt="">
+			<img src="img/Dr.png" alt="">		
+		</div>
+	
+	</div>
+</section>
+<script src="js/scroll.js"></script>
+<script src="js/modal.js"></script>
+</body>
+</html>

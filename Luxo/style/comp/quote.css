@@ -1,0 +1,20 @@
+.quote {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 350px;
+	background-color: #47474e;
+}
+
+.quote-text {
+	color: #fff;
+	font-size: 26px;
+}
+
+.quote-color {
+	color: #ffb600;
+}
+
+.arrow {
+	color: #fff;
+}

@@ -1,0 +1,8 @@
+@font-face {
+	src: url('../vend/OpenSans-SemiBold.ttf');
+	font-family: 'OpenSans-SemiBold.ttf';
+}
+
+body {
+	font-family: 'OpenSans-SemiBold.ttf';
+}
