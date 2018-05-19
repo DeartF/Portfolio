@@ -48,4 +48,14 @@
 		width: 100%;
 		height: auto;
 	}
+
+	.btn:hover {
+	background-color: #061634;
+	color: #fff;
+	}
+
+	.footer__social-icons > a:hover {
+		opacity: 1;
+		color: #fff;
+	}
 }

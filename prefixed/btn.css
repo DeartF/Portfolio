@@ -1,0 +1,36 @@
+.btn {
+	padding: 8px 30px;
+	font-style: 15px;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	background-color: #ff3150;
+	color: #ffbd0e;
+	cursor:pointer;
+}
+
+.btn--home {
+	display: block;
+	margin: 0 auto;
+}
+
+.btn--slide {
+	position: absolute;
+	width: 200px;
+	padding: 15px 0;
+	bottom: 30px;
+	display: block;
+	text-align: center;
+	left: 35px;
+	font-size: 18px;	
+}
+
+.btn--portfolio {
+	margin: 0 auto;
+	display: block;
+	
+}
+
+.btn--modal {
+	margin-left: 110px;
+}

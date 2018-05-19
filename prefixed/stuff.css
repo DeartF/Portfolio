@@ -1,0 +1,71 @@
+.stuff .wrapper {
+	width: 1170px;
+	margin: 0 auto;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+
+.stuff .section-head {
+	padding-top: 59px;
+}
+
+.section-head__subtitle--second {
+	padding-top: 29px;
+}
+
+.stuff .section-head__subtitle {
+	margin-bottom: 18px;
+}
+
+.section-head__subtitle--second {
+	display: -ms-flexbox;
+	display: flex;
+	width: 570px;
+	padding-top: 26px;
+	color: #a8b9c0;
+	font-size: 15px;
+	font-weight: 300;	
+}
+
+.stuff-about {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	    justify-content: space-between;
+	-ms-flex-align: center;
+	    align-items: center;
+}
+
+.stuff-about__h1 {
+	display: -ms-flexbox;
+	display: flex;
+	color: #1a2940;
+	font-size: 35px;
+	font-weight: 500;
+	line-height: 27px;
+	margin-bottom: 23px;
+}
+
+.stuff-about__retina {
+	width: 376px;
+	color: #a8b9c0;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.btn--order {
+	display: -ms-flexbox;
+	display: flex;
+	margin-top: 25px;
+	border-radius: 20px;
+}
+
+.stuff-about__mac {
+	display: -ms-flexbox;
+	display: flex;
+	margin-left: 77px;
+}

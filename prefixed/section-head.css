@@ -1,0 +1,42 @@
+.section-head {
+	text-align: center;
+	margin-bottom: 63px;
+}
+
+.section-head__img {
+	margin-bottom: 20px;
+}
+
+.section-head__title {
+	display: block;
+	text-align: center;
+	font-size: 30px;
+	color: #1A2940;
+	margin-bottom: 15px;
+}
+
+.section-head__subtitle {
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	color: #A8B9C0;
+	margin-bottom: 5px;
+}
+
+
+.section-head__subtitle:after {
+	content: "";
+	width: 70px;
+	height: 3px;
+	background-color: #c7b299;
+
+
+}
+.section-head__border {
+	width: 150px;
+    height: 2px;
+    background-color: #00c6bf;
+    display: inline-block;
+   
+}
+

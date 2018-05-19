@@ -1,0 +1,28 @@
+.home {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	    align-items: center;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	height: 100vh;
+	background-color: #19283f;
+
+}
+
+.home-title {
+	display: block;
+	font-size: 50px;
+	color: rgba(255, 255, 255, .9);
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.home-subtitle {
+	display: block;
+	font-size: 18px;
+	color: rgba(255, 255, 255, .6);
+	margin-bottom: 30px;
+	text-align: center;
+}
+

@@ -1,0 +1,97 @@
+.slider {
+	position: relative;
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+
+.carousel {
+	width: 300%;
+	position: absolute;
+	top: 0;
+	left: 0%;
+	height: 100%;
+	display: -ms-flexbox;
+	display: flex;
+	transition: .3s ease-out;
+}
+
+.carousel-item {
+	width: calc(100% / 3);
+	height: 100%;
+}
+
+.carouserl-item img {
+	width: 100%;
+	height: 100%;
+}
+
+.arrow {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	z-index: 2;
+	background-color: rgba(0, 0, 0, .3);
+	padding: 15px;
+	border-radius: 50%;
+	top: calc(50% - 35px);
+	cursor: pointer;
+}
+
+.arrow--left {
+	left: 5%;
+}
+
+.arrow--right {
+	right: 5%;
+	transform: rotate(180deg);
+}
+
+.dots {
+	position: absolute;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	z-index: 2;
+	bottom: 20px;
+	width: 100%;
+}
+
+.dots-item {
+	width: 15px;
+	height: 15px;
+	background-color: rgba(0, 0, 0, .7);
+	border-radius: 50px;
+	cursor: pointer;
+	margin: 0 5px;
+	transition: .2s ease-out;
+}
+
+.dots-item.active {
+	border: 2px solid rgba(0, 0, 0, .7);
+    background-color: transparent;
+}
+
+.slider-item {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	animation: fade .3s ease-out;
+}
+
+.slider-item.active {
+	display: block;
+}
+
+@keyframes fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

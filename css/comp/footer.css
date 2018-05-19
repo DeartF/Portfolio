@@ -60,6 +60,7 @@
 	letter-spacing: 1.6px;
 	margin-bottom: 13px;
 	transition: .3s ease-out;
+	background-color: #061634;
 }
 
 .btn:hover {
