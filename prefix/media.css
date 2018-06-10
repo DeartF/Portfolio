@@ -1,0 +1,59 @@
+@media (max-width: 1160px) {
+	.container {
+		width: 100%;
+	}
+
+	.col-4 {
+		width: 100%;
+		margin: 0;
+		margin-bottom: 30px;
+		padding: 0 15px;
+		text-align: center;
+		box-sizing: border-box;
+	}
+
+	.header {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.header-title {
+		font-size: 38px;
+		line-height: 48px;
+		margin-bottom: 15px;
+	}
+
+	.header-subtitle {
+		font-size: 22px;
+		line-height: 38px;
+	}
+
+	.portfolio {
+		padding-top: 40px;
+		padding-bottom: 50px;
+	}
+
+	.title {
+		font-size: 36px;
+	}
+
+	.footer {
+		padding-top: 70px;
+		padding-bottom: 60px;
+	}
+
+	.portfolio-item__img  img {
+		width: 100%;
+		height: auto;
+	}
+
+	.btn:hover {
+	background-color: #061634;
+	color: #fff;
+	}
+
+	.footer__social-icons > a:hover {
+		opacity: 1;
+		color: #fff;
+	}
+}

@@ -9,6 +9,17 @@
 		display: none;
 	}
 
+	.home-subtitle {
+		padding: 0 20px;
+		font-size: 20px;
+	}
+
+	.home-title {
+		padding: 0 20px;
+		font-size: 28px;
+		margin-bottom: 20px;
+	}
+
 	.menu {
 		display: block;
 		left: 15px;
@@ -19,6 +30,18 @@
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
 		padding: 0 5%;
+	}
+
+	.header {
+		height: 70px;
+	}
+
+	.logo {
+		padding-bottom: 10px;
+	}
+
+	.menu {
+		margin-bottom: 10px;
 	}
 
 	.contact-item {
@@ -34,5 +57,33 @@
 	.contact-inner {
 		justify-content: space-around;
 		width: 100%;
+	}
+
+	.modal {
+		padding: 20px;
+	}
+
+	.modal-form__input {
+		font-size: 14px;
+	}
+
+	.modal-close {
+		width: 25px;
+	}
+
+	.modal-head {
+		font-size: 14px;
+	}
+
+	.dropdown-select {
+		font-size: 14px;
+	}
+
+	.offer-item__inner {
+		padding: 0 10px;
+	}
+
+	.quote-text {
+		padding:  0 20px;
 	}
 }

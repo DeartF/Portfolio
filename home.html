@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>My portfolio</title>
-	<link rel="stylesheet" href="main.min.css">
+	<link rel="stylesheet" href='css/all.css'>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon-16x16.png">
     <link rel="stylesheet" href="css/font-awesome/css/fontawesome-all.min.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
@@ -15,9 +15,9 @@
 		<div class="header-inner">
 			<span class="header-title">Артём Фёдоров </span><span class="header-subtitle">Верстка сайтов на HTML5 CSS3 и JS</span>
 		</div>
-        <img src="img/arrowdown.png" alt="" class="header-arrow">
+         <img src="img/arrowdown.png" alt="" class="header-arrow" id="header-arrow" onclick="Scroll('portfolio')">
 	</section>
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="container">
         <div class="title">Портфолио</div>
         <div class="row">
@@ -74,5 +74,7 @@
             </div>
         </div>
     </section>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="js/scroll.js"></script>
 </body>
 </html>

@@ -39,14 +39,14 @@ a {
 }
 
 .header-title {
-	font-size: 56px;
+	font-size: 58px;
 	margin-bottom: 30px;
     margin-top: -50px;
 }
 
 .header-subtitle {
 	display: block;
-    font-size: 28px;
+    font-size: 26px;
     margin-top: 30px;
     line-height: 42px;
 }
@@ -57,4 +57,5 @@ a {
     position: absolute;
     bottom: 50px;
     left: 50%;
+    cursor: pointer;
 }
